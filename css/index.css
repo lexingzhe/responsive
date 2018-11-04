@@ -1,0 +1,365 @@
+/*public*/
+.w1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*header*/
+.header {
+    height: 56px;
+    background: url("../images/headerbg.gif");
+}
+.header-main{
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #979797;
+}
+.header-main .left{
+
+}
+.header-main .right{
+    padding-right: 20px;
+    background: url("../images/header-right-bg.jpg") no-repeat 0 3px;
+    padding-left: 34px;
+}
+.header-main .right a{
+    color: #979797;
+}
+.header-main .right a img{
+    margin-right:7px;
+    vertical-align:middle;
+}
+.header-main .right span{
+    padding: 0 5px 0 8px;
+}
+/*logo*/
+.logo{
+    height: 100px;
+    background: #ffffff;
+    text-align: center;
+}
+/*nav*/
+.nav{
+    height: 45px;
+    background: #1d5d99;
+}
+.nav ul li{
+    float: left;
+
+}
+.nav ul li a{
+    padding: 0 30px;
+    display: block;
+    line-height: 45px;
+    border-right: 1px solid #2470b7;
+    border-left: 1px solid #184c7d;
+    font-size: 16px;
+    color: white;
+    font-family: '微软雅黑';
+}
+.nav ul li .first{
+    border-left: none ;
+}
+.nav ul li .last{
+    border-right: none;
+}
+.nav ul li a:hover{
+    background: #2574be;
+}
+/*banner*/
+.banner{
+    /*height: 445px;*/
+}
+.banner img{
+    width: 100%;
+    /*vertical-align: middle;*/
+}
+/*main*/
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main .about{
+    height: 202px;
+    margin-top: 27px;
+    box-shadow: 1px 0px 1px 1px #e9e9e9;
+    position: relative;
+    overflow: auto;
+}
+.main .about-img{
+    float: left;
+}
+.main .about .right{
+    padding: 25px 34px 0 30px;
+    overflow: hidden;
+}
+.main .about .right ul li{
+    float: left;
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    background: #adadad;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 77px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+}
+.main .about .right ul{
+    overflow: hidden;
+    padding-left: 24px;
+}
+.main .about .right ul .last{
+    margin-right: 0;
+}
+.main .about .right ul li:after{
+    content: '';
+    height:0;
+    width: 77px;
+    border-bottom: 1px dashed #adadad;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 31px;
+}
+.main .about .right ul .last:after{
+    border:none;
+}
+.main .about .right p{
+    margin-top: 16px;
+    line-height: 27px;
+    text-indent: 2em;
+    font-size: 12px;
+    color:#636363;
+}
+.main .about .right .more{
+    position: absolute;
+    bottom: 21px;
+    right: 15px;
+    font-size: 12px;
+    color: #1d5d99;
+}
+/*list*/
+.main .list .list-item{
+    padding-top: 64px;
+    overflow: hidden;
+    margin-left: 2px;
+}
+.main .list-item .item{
+    background: #f0f0f0;
+    width: 230px;
+    height: 342px;
+    float: left;
+    position: relative;
+    margin-right: 26px;
+    /*overflow: hidden;*/
+}
+.main .list-item .last{
+    margin-right: 0;
+}
+.main .list-item .item .ab-img{
+    position: absolute;
+    top: -36px;
+    left: 78px;
+}
+.main .list-item .item div{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+.main .list-item .item div img{
+    width: 222px;
+    height: 123px;
+}
+.main .list-item .item div strong{
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    width: 222px;
+    color: #fff;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+}
+.main .list-item .item p{
+    margin: 13px 12px 0 15px;
+    font-size: 12px;
+    line-height: 24px;
+    text-indent: 2em;
+    color: #636363;
+}
+.main .list-item .item a{
+    display: block;
+    width: 113px;
+    height: 26px;
+    background: #1d5d99;
+    line-height: 26px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 61px;
+}
+/*title*/
+.main .title{
+    height: 40px;
+    background: url(../images/chanye-ico.jpg) repeat-y;
+    line-height: 40px;
+    border-top: 1px solid #dbdbdb;
+    padding-right: 19px;
+    margin: 29px auto 27px auto;
+}
+.main .title h2{
+    background: url("../images/emailico.jpg") no-repeat 14px center ;
+    padding-left: 47px;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    color: #515151;
+    font-weight: 400;
+}
+.main .title a{
+    font-size: 12px;
+    color: #1d5d99;
+}
+/*swiper*/
+.swiper{
+    height: 251px;
+}
+.swiper ul li {
+    text-align: center;
+    width: 236px;
+    float: left;
+    margin-right: 18px;
+}
+.swiper ul .last{
+    margin-right: 0;
+}
+.swiper ul li div{
+    border:1px solid #dbdbdb;
+    padding: 4px;
+}
+.swiper ul li img{
+    height: 130px;
+    width: 227px;
+}
+.swiper ul li strong{
+   line-height: 60px;
+    font-size: 12px;
+}
+.infolink{
+    height: 102px;
+    background: url("../images/linkico.png") no-repeat bottom center #dedede;
+}
+.infolink .w1000 div{
+    padding: 16px 0 0 356px;
+    line-height: 24px;
+    color: #929292;
+    font-size: 12px;
+}
+.footer{
+    height: 148px;
+    background: #1d5d99;
+    text-align: center;
+    overflow: hidden;
+}
+.footer div{
+    margin-top: 25px;
+    font-size: 0px;
+    line-height: 0px;
+}
+.footer div a,span,p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #5198da;
+}
+.footer div span{
+    padding: 0 8px;
+}
+
+.top{
+    width: 69px;
+    height: 69px;
+    /*background: ;*/
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+@media screen and (max-width: 1000px){
+    .w1000,.main{
+        width:100%;
+    }
+    .nav ul li{
+        width: 50%;
+    }
+    .nav ul{
+        overflow: hidden;
+    }
+    .nav{
+        height: auto;
+    }
+
+
+    .main .about .right ul li{
+        margin-right: 33px;
+    }
+    .main .about{
+        height: auto;
+        overflow: hidden;
+        padding: 20px 0;
+    }
+    .main .list-item .item{
+        width: 47%;
+        margin: 0 0 31px 2%;
+    }
+    .main .list ul{
+        margin-bottom: -23px;
+    }
+    .main .list-item .item div img{
+        width: 96%;
+    }
+    .main .list-item .item div strong{
+        left: 2%;
+        width: 96%;
+    }
+
+    .swiper ul li{
+        width: 46%;
+        margin-right: 0%;
+        margin-left: 2%;
+
+    }
+    .swiper{
+        height: auto;
+    }
+    .swiper ul{
+        overflow: hidden;
+    }
+
+    .infolink{
+        background-size: 100%;
+    }
+    .infolink .w1000 div{
+        padding: 16px 0 0 20%;
+    }
+@media screen and (max-width: 524px){
+    .header-main .right{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+}
